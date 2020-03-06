@@ -1,7 +1,8 @@
-from gen_func import *
-from file_wav import *
-from file_dict import *
-from muti_gpu import *
+from ..speech.general_function.file_dict import GetSymbolList
+from ..speech.general_function.file_dict import *
+# from file_wav import *
+# from file_dict import *
+# from muti_gpu import *
 import keras as kr
 import numpy as np
 import random
@@ -13,7 +14,7 @@ from keras import backend as K
 from keras.optimizers import SGD, Adadelta, Adam
 
 # from readdata24 import DataSpeech
-import readdate24
+# import readdate24
 
 abspath = ''
 ModelName = '251'
